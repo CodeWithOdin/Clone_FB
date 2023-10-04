@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySocialSpace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3f9c475758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="l">
+            <img src="./img/logo.png" class="logo" >           
+            <ul>
+                <li> <img src="./img/inbox.png" class="noti" ></li>
+                <li> <img src="./img/notification.png" class="ib" ></li>
+                <li> <img src="./img/video.png" class="vid" ></li>              
+            </ul>
+        </div>
+
+        <div class="r">
+            <div id="theme" onclick="set_theme()">
+                <img src="./img/moon.png" alt="">
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <img src="./img/search.png" alt="">
+            </div>
+
+            <div class="uicon online" onclick="setmenu()">
+                <img src="./img/profile-pic.png" alt="">
+
+            </div>
+        </div>
+         <!-- toggle.. -->
+        <div class="toggle">
+            <div class="writepic innerlayout">
+                <img src="./img/profile-pic.png" alt="">
+
+                <div>
+                    <p>John</p>
+                    <a href="#">See Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="setlist">
+                <img src="./img/setting.png" class="seticon">
+                <a href="#">Settings & Privacy <img src="./img/arrow.png" alt=""width="10px"></a>
+            </div>
+            <div class="setlist">
+                <img src="./img/help.png" class="seticon">
+                <a href="#">Help & Support<img src="./img/arrow.png" alt=""width="10px"></a>
+            </div>
+            <div class="setlist">
+                <img src="./img/display.png" class="seticon">
+                <a href="#">Display & Accessibility<img src="./img/arrow.png" alt=""width="10px"></a>
+            </div>
+            <div class="setlist">
+                <img src="./img/logout.png" class="seticon">
+                <a href="#">Log Out<img src="./img/arrow.png" alt=""width="10px"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Left Coloumn... -->
+        <div class="lc">
+
+            <div class="implink">
+                <a href="#"><img src="./img/news.png" >Latest News</a>
+                <a href="#"><img src="./img/friends.png" >Friends</a>
+                <a href="#"><img src="./img/group.png" >Group</a>
+                <a href="#"><img src="./img/marketplace.png" >Market Place</a>
+                <a href="#"><img src="./img/watch.png" >Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut">
+                <p>Shortcuts</p>
+                <a href="#"><img src="./img/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="./img/shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="./img/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="./img/shortcut-4.png">Website Expert</a>
+
+            </div>
+            
+        </div>
+           <!-- Middlle Coloumn... -->
+        <div class="mc">
+
+            <div class="story">
+                <div class="stemp stemp1">
+                    <img src="./img/upload.png" alt="">
+                    <p>Your Story</p>
+                </div>
+                <div class="stemp stemp2">
+                    <img src="./img/member-1.png" alt="">
+                    <p>Alisson</p>
+                </div>
+                <div class="stemp stemp3">
+                    <img src="./img/member-2.png" alt="">
+                    <p>Garrison</p>
+                </div>
+                <div class="stemp stemp4">
+                    <img src="./img/member-3.png" alt="">
+                    <p>Peterson</p>
+                </div>
+                <div class="stemp stemp5">
+                    <img src="./img/member-4.png" alt="">
+                    <p>Henderson</p>
+                </div>
+            </div>
+            <div class="write">
+                <div class="writepic">
+                    <img src="./img/profile-pic.png" alt="">
+   
+                    <div>
+                        <p>John</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+                <div class="postlinkcontainer">
+                    <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <div class="postlink">
+                        <a href="#"><img src="./img/watch.png"  alt="">Video</a>
+                        <a href="#"><img src="./img/photo.png"  alt="">Photo</a>
+                        <a href="#"><img src="./img/feeling.png"  alt="">Feeling</a>
+                    </div>
+                </div>
+            </div>
+            <div class="write">
+                
+                <div class="writepic">
+                    <a href="#" class="threedot"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                    <img src="./img/profile-pic.png" alt="">
+   
+                    <div class="main">
+                        <p>John</p>
+                        <small>June 24 2021,13:40 pm</small>
+                    </div>
+                </div>
+                <p class="about">Just an <span>Average Joe</span> trying to make my living less suffering</p>
+                <img src="./img/feed-image-1.png" alt="" class="aboutimg">
+                <div class="likecomment">
+                    <div><img src="./img/like-blue.png" alt="">100</div>
+                    <div><img src="./img/comments.png" alt="">99</div>
+                    <div><img src="./img/share.png" alt="">50</div>
+                </div>
+
+            </div>
+
+            <div class="write">
+                
+                <div class="writepic">
+                    <a href="#" class="threedot"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                    <img src="./img/profile-pic.png" alt="">
+   
+                    <div class="main">
+                        <p>John</p>
+                        <small>June 24 2021,13:40 pm</small>
+                    </div>
+                </div>
+                <p class="about">Love <span>Campfire</span>. It makes a better Bonding</p>
+                <img src="./img/feed-image-2.png" alt="" class="aboutimg">
+                <div class="likecomment">
+                    <div><img src="./img/like-blue.png" alt="">100</div>
+                    <div><img src="./img/comments.png" alt="">99</div>
+                    <div><img src="./img/share.png" alt="">50</div>
+                </div>
+
+            </div>
+
+            <div class="write">
+                
+                <div class="writepic">
+                    <a href="#" class="threedot"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                    <img src="./img/profile-pic.png" alt="">
+   
+                    <div class="main">
+                        <p>John</p>
+                        <small>June 24 2021,13:40 pm</small>
+                    </div>
+                </div>
+                <p class="about">Just <span>Group</span> having fun. Its our Group </p>
+                <img src="./img/feed-image-3.png" alt="" class="aboutimg">
+                <div class="likecomment">
+                    <div><img src="./img/like-blue.png" alt="">100</div>
+                    <div><img src="./img/comments.png" alt="">99</div>
+                    <div><img src="./img/share.png" alt="">50</div>
+                </div>
+
+            </div>
+
+            <div class="write">
+                
+                <div class="writepic">
+                    <a href="#" class="threedot"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                    <img src="./img/profile-pic.png" alt="">
+   
+                    <div class="main">
+                        <p>John</p>
+                        <small>June 24 2021,13:40 pm</small>
+                    </div>
+                </div>
+                <p class="about">Do you have a <span>Fiance?</span> </p>
+                <img src="./img/feed-image-4.png" alt="" class="aboutimg">
+                <div class="likecomment">
+                    <div><img src="./img/like-blue.png" alt="">100</div>
+                    <div><img src="./img/comments.png" alt="">99</div>
+                    <div><img src="./img/share.png" alt="">50</div>
+                </div>
+               
+            </div>
+
+                <button type="button" class="load">Load More</button>
+
+
+
+        </div>
+           <!-- Right Coloumn... -->
+        <div class="rc">
+
+            <div class="title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>  
+
+            <div class="event">
+                <div class="levent">
+                    <h4>18</h4>
+                    <span>March</span>
+                </div>
+                <div class="revent">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Wilson</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+            <div class="event">
+                <div class="levent">
+                    <h4>20</h4>
+                    <span>March</span>
+                </div>
+                <div class="revent">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Wilson</p>
+                    <a href="#">More Info</a>
+
+                </div>
+            </div>
+            <div class="ads">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./img/advertisement.png" alt="" class="adsimg">
+            <div class="convo">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+
+            </div>
+            <div class="actuser">
+                <div class="online">
+                    <img src="./img/member-1.png" alt="">
+                </div>
+                <p>Alisson</p>
+            </div>
+            <div class="actuser">
+                <div class="online">
+                    <img src="./img/member-2.png" alt="">
+                </div>
+                <p>Garrison</p>
+            </div>
+            <div class="actuser">
+                <div class="online">
+                    <img src="./img/member-3.png" alt="">
+                </div>
+                <p>Peterson</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+    <div class="footer">
+        <p>Copyright@2023 By Fahimuddin</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
